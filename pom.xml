@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+ <groupId>google</groupId>
+ <artifactId>pagerank</artifactId>
+ <packaging>jar</packaging>
+ <version>1.0</version>
+ <name>Google PageRank Check</name>
+ 
+ <properties>
+ <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
+ <scm>
+  <connection>scm:git:git@github.com:tc/google-pagerank.git</connection>
+  <url>scm:git:git@github.com:tc/google-pagerank.git</url>
+  <developerConnection>scm:git:git@github.com:tc/google-pagerank.git</developerConnection>
+ </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>http://github.com/tc/tc-maven-repo/raw/master/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>http://github.com/tc/tc-maven-repo/raw/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+ <dependencies>
+   <dependency>
+   <groupId>junit</groupId>
+   <artifactId>junit</artifactId>
+   <version>4.8.2</version>
+   <scope>test</scope>
+   </dependency>
+ </dependencies>
+ 
+</project>
+

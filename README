@@ -1,0 +1,26 @@
+Google PageRank
+http://tommy.chheng.com
+
+Add to your pom.xml:
+<repositories>
+    <repository>
+        <id>tc-maven-repo</id>
+        <url>http://github.com/tc/tc-maven-repo/raw/master/releases</url>
+    </repository>
+</repositories>
+
+
+<dependencies>
+    <dependency>
+        <groupId>google</groupId>
+        <artifactId>pagerank</artifactId>
+        <version>1.0</version>
+    </dependency>
+</dependencies>
+
+
+Usage:
+     String domain = "http://www.gmail.com";
+     int pageRank = PageRank.get(domain);
+     assertEquals(9, pageRank);
+ 
