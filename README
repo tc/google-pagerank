@@ -1,7 +1,7 @@
 Google PageRank
 http://tommy.chheng.com
 
-Add to your pom.xml:
+Using Maven(or ivy, sbt, etc), add the following to your pom.xml:
 <repositories>
     <repository>
         <id>tc-maven-repo</id>
