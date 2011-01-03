@@ -24,3 +24,7 @@ Usage:
      int pageRank = PageRank.get(domain);
      assertEquals(9, pageRank);
  
+Deploy for developers:
+mvn -DaltDeploymentRepository=snapshot-repo::default::file:../../tc-maven-repo/releases clean deploy
+
+cd ../../tc-maven-repo && git add . && git commit -m "new version of google page rank"
