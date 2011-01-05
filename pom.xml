@@ -20,11 +20,11 @@
     <distributionManagement>
         <repository>
             <id>repo</id>
-            <url>https://github.com/tc/tc-maven-repo/tree/master/releases?raw=true</url>
+            <url>https://github.com/tc/tc-maven-repo/raw/master/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshot-repo</id>
-            <url>http://github.com/tc/tc-maven-repo/tree/master/snapshots?raw=true</url>
+            <url>https://github.com/tc/tc-maven-repo/raw/master/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 

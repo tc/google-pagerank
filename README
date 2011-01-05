@@ -5,7 +5,7 @@ Using Maven(or ivy, sbt, etc), add the following to your pom.xml:
 <repositories>
     <repository>
         <id>tc-maven-repo</id>
-        <url>http://github.com/tc/tc-maven-repo/raw/master/releases</url>
+        <url>https://github.com/tc/tc-maven-repo/raw/master/releases</url>
     </repository>
 </repositories>
 
@@ -26,5 +26,6 @@ Usage:
  
 Deploy for developers:
 mvn -DaltDeploymentRepository=repo::default::file:../../tc-maven-repo/releases clean deploy
+mvn -DaltDeploymentRepository=snapshot-repo::default::file:../../tc-maven-repo/snapshots clean deploy
 
 cd ../../tc-maven-repo && git add . && git commit -m "new version of google page rank"
