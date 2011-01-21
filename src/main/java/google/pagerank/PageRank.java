@@ -29,7 +29,7 @@ public class PageRank {
      * @return PR rating (int) or -1 if unavailable or internal error happened.
      */
     public static int get(String domain) {
-        int dataCenterIdx = new Random().nextInt(GOOGLE_PR_DATACENTER_IPS.length) + 1;
+        int dataCenterIdx = new Random().nextInt(GOOGLE_PR_DATACENTER_IPS.length);
         int result = -1;
         JenkinsHash jHash = new JenkinsHash();
 
