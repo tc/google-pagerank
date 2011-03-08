@@ -4,7 +4,7 @@
  <groupId>google</groupId>
  <artifactId>pagerank</artifactId>
  <packaging>jar</packaging>
- <version>1.0</version>
+ <version>1.0.2</version>
  <name>google-pagerank</name>
  
  <properties>

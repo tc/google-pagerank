@@ -14,7 +14,7 @@ Using Maven(or ivy, sbt, etc), add the following to your pom.xml:
     <dependency>
         <groupId>google</groupId>
         <artifactId>pagerank</artifactId>
-        <version>1.0</version>
+        <version>1.0.2</version>
     </dependency>
 </dependencies>
 

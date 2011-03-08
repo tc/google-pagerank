@@ -42,6 +42,7 @@ public class PageRank {
 
         try {
             URLConnection con = new URL(url).openConnection();
+            con.setConnectTimeout(10000);
             InputStream is = con.getInputStream();
             byte [] buff = new byte[1024];
             int read = is.read(buff);
